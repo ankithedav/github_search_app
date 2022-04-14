@@ -1,38 +1,65 @@
-.App {
+.repo-header{
   text-align: center;
+  padding-bottom: 20px;
+  border-bottom: groove;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-h1 {
+  margin-bottom: auto;
+  font-size: 45px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.button3{
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:500;
+  color:#FFFFFF;
+  background-color:#b393d3;
+  text-align:center;
+  transition: all 0.2s;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button3:hover{
+  background-color:#4095c6;
   }
-  to {
-    transform: rotate(360deg);
+.button3{
+  margin:0.2em auto;
+  margin-left: 10px;
   }
+
+.border{
+  border-bottom: groove;
+}  
+
+.href{
+  text-decoration: none;
+  /* vertical-align: middle !important; */
+  font-size: 20px !important;
+}
+
+.alert{
+  padding-top: 10px;
+}
+
+.margin{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.desc-margin{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pagination{
+  margin-top: 20px;
+  text-align: center;
 }
